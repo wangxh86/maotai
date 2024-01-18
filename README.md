@@ -17,7 +17,9 @@ Thanks to everyone who supported me before, this repository is currently suspend
 
 葫芦娃中奖通知暂时没做，有查询接口的可以在 issues中 提供下方便后期对接
 
-推荐一个在线预约平台：[https://github.com/bxgh01/maotai.git](https://github.com/bxgh01/maotai.git)（支持葫芦娃+i茅台在线预约）
+在线预约平台正在开发新版本中，原有平台已废弃，请大家敬请期待
+
+~~推荐一个在线预约平台：[https://github.com/bxgh01/maotai.git](https://github.com/bxgh01/maotai.git)（支持葫芦娃+i茅台在线预约）~~
 
 ## 拉库指令
 
