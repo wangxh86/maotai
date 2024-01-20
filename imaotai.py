@@ -22,9 +22,10 @@ from notify import send
 p_c_map = {}
 mt_r = 'clips_OlU6TmFRag5rCXwbNAQ/Tz1SKlN8THcecBp/'
 # 下面定义的是申请哪几个，可通过iMT_Products环境变量来设置，比如{"10941": "贵州茅台酒（甲辰龙年）", "2478": "贵州茅台酒（珍品）", "10942": "贵州茅台酒（甲辰龙年）x2"}
-res_map = json.loads(os.getenv('iMT_Products', ''))
-if not res_map:
-    res_map = {"10941": "贵州茅台酒（甲辰龙年）", "10942": "贵州茅台酒（甲辰龙年）x2"}
+#res_map = json.loads(os.getenv('iMT_Products', ''))
+#if not res_map:
+#    res_map = {"10941": "贵州茅台酒（甲辰龙年）", "10942": "贵州茅台酒（甲辰龙年）x2"}
+res_map = {"10941": "贵州茅台酒（甲辰龙年）", "10942": "贵州茅台酒（甲辰龙年）x2"}
 print(res_map)
 
 def mt_add(itemId, shopId, sessionId, userId, token, Device_ID):
